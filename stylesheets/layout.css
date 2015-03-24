@@ -1,0 +1,69 @@
+body{
+  margin: 0;
+  font: normal 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: url(../images/wrap.png) 0 0 repeat;
+}
+#wrap{
+  width: 100%;
+  height: 1080px;
+}
+.main{
+  width: 70%;
+  margin: 50px auto;
+}
+header h1{
+  color: #FCFFFA;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.list{
+  width: 600px;
+  height: 320px;
+  border: 1px solid #D0D2DE;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  color: #d9d9d9
+}
+.list .what-to-do{
+  background-color: #EFEFEF;
+  width: 100%;
+  height: 80px;
+}
+.what-to-do h2{
+  padding-left: 80px;
+  margin: 0;
+  font-size: 25px;
+  line-height: 80px;
+}
+.list .listheader{
+  border-top: 15px solid #BF9A87;
+} 
+.list ul{
+  padding: 0px;
+  margin: 0px;
+}
+.list li{
+  height: 80px;
+  list-style: none;
+  font-size: 25px;
+  line-height: 80px;
+  padding-left: 30px;
+}
+.list li:before{
+  content: '✔';
+  font-size: 20px;
+  padding-right: 30px;
+  color: #d9d9d9;
+}
+.list li:hover{
+  text-decoration:line-through;
+  color: #FFFFFF;
+  background-color: #EFEFEF;
+}
+footer{
+    text-align: center;
+    color: #CCCCCC;
+    padding-top: 50px;
+}
